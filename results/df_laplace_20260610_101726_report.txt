@@ -1,0 +1,29 @@
+==========================================================
+          DATA ANONYMIZATION REPORT
+==========================================================
+
+Date              : 2026-06-10 10:17:26
+Algorithm         : Differential Privacy - Laplace
+
+Parameters
+------------------------------
+  epsilon                 : 0.5
+  mechanism               : Laplace
+  quasi_identifiers       : age, education.num, race, sex
+
+Dataset
+------------------------------
+  Original records  : 32,561
+  Result records    : 32,561
+  Data retention    : 100.0%
+
+Quasi-identifiers (4 selected)
+------------------------------
+  - age (numerical)
+  - education.num (numerical)
+  - race (categorical)
+  - sex (categorical)
+
+Sensitive attribute : income
+
+==========================================================

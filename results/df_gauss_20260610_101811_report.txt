@@ -1,0 +1,29 @@
+==========================================================
+          DATA ANONYMIZATION REPORT
+==========================================================
+
+Date              : 2026-06-10 10:18:11
+Algorithm         : Differential Privacy - Gaussian
+
+Parameters
+------------------------------
+  epsilon                 : 0.5
+  delta                   : 1e-05
+  mechanism               : Gaussian
+  quasi_identifiers       : age, education.num, sex
+
+Dataset
+------------------------------
+  Original records  : 32,561
+  Result records    : 32,561
+  Data retention    : 100.0%
+
+Quasi-identifiers (3 selected)
+------------------------------
+  - age (numerical)
+  - education.num (numerical)
+  - sex (categorical)
+
+Sensitive attribute : income
+
+==========================================================

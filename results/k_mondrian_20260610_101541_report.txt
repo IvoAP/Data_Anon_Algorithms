@@ -1,0 +1,34 @@
+==========================================================
+          DATA ANONYMIZATION REPORT
+==========================================================
+
+Date              : 2026-06-10 10:15:41
+Algorithm         : k-Mondrian (k-anonymity)
+
+Parameters
+------------------------------
+  k                       : 3
+  quasi_identifiers       : age, capital.loss, sex
+
+Dataset
+------------------------------
+  Original records  : 32,561
+  Result records    : 32,561
+  Data retention    : 100.0%
+
+Quasi-identifiers (3 selected)
+------------------------------
+  - age (numerical)
+  - capital.loss (numerical)
+  - sex (categorical)
+
+Sensitive attribute : income
+
+Equivalence Classes
+------------------------------
+  Total classes     : 23
+  Min class size    : 11
+  Max class size    : 10199
+  Avg class size    : 1415.7
+
+==========================================================

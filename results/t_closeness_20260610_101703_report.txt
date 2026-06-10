@@ -1,0 +1,37 @@
+==========================================================
+          DATA ANONYMIZATION REPORT
+==========================================================
+
+Date              : 2026-06-10 10:17:03
+Algorithm         : t-Closeness
+
+Parameters
+------------------------------
+  k                       : 6
+  t                       : 0.2
+  sensitive_attribute     : income
+  quasi_identifiers       : age, education.num, hours.per.week, capital.gain
+
+Dataset
+------------------------------
+  Original records  : 32,561
+  Result records    : 32,561
+  Data retention    : 100.0%
+
+Quasi-identifiers (4 selected)
+------------------------------
+  - age (numerical)
+  - education.num (numerical)
+  - hours.per.week (numerical)
+  - capital.gain (numerical)
+
+Sensitive attribute : income
+
+Equivalence Classes
+------------------------------
+  Total classes     : 148
+  Min class size    : 6
+  Max class size    : 11768
+  Avg class size    : 220.0
+
+==========================================================
